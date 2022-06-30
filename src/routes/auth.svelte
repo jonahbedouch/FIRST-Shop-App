@@ -36,7 +36,7 @@
 		/>
 		<button
 			type="submit"
-			class="md:mx-auto md:w-1/3 bg-main mx-16 py-4 rounded hover:bg-accent hover:brightness-95 active:brightness-90 dark:text-white"
+			class="md:mx-auto md:w-1/3 bg-main text-main-text mx-16 py-4 rounded hover:bg-accent hover:brightness-95 active:brightness-90"
 			>Sign in</button
 		>
 	</form>
