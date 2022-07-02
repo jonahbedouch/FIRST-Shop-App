@@ -1,6 +1,6 @@
-<script>
+<script type="ts">
   import { userData } from '../../data';
-import { safety, teamName } from '../../config';
+  import { safety, teamName } from '../../config';
 </script>
 
 {#if safety && $userData.type !== "member"}

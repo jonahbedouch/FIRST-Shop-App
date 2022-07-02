@@ -1,5 +1,5 @@
-<script>
-    import { userData } from '../../data';
+<script type="ts">
+  import { userData } from '../../data';
 	import { safety, teamName } from '../../config';
 </script>
 

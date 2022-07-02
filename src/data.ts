@@ -1,12 +1,18 @@
 import { writable, type Writable } from "svelte/store";
 
-export interface userData {
+export interface UserData {
     firstName: string,
     lastName: string,
     type: string
 }
 
-export let userData: Writable<userData> = writable({
+export interface Question {
+    label: string,
+    name: string,
+    required: boolean
+}
+
+export let userData: Writable<UserData> = writable({
     firstName: "",
     lastName: "",
     type: ""

@@ -1,3 +1,5 @@
+import type { Question } from "./data";
+
 export const teamName: string = "Stable Circuits Robotics";
 
 /** Whether to enable the inventory management system */
@@ -7,7 +9,7 @@ export const inventory: boolean = true;
 export const safety: boolean = true;
 
 /** Build Your Own Safety Report */
-export const safetyForm: Array<Record<string, string | boolean>> = [{"label": "Who got injured?", "name": "name", "required": true}, {"label": "Describe the Injury", "name": "injury", "required": true}, {"label": "How did it occur?", "name": "description", "required": true}, {"label": "What was done to resolve the issue?", "name": "resolution", "required": true }];
+export const safetyForm: Array<Question> = [{"label": "Who got injured?", "name": "name", "required": true}, {"label": "Describe the Injury", "name": "injury", "required": true}, {"label": "How did it occur?", "name": "description", "required": true}, {"label": "What was done to resolve the issue?", "name": "resolution", "required": true }];
 
 /** Whether to enable the timecard system */
 export const timecard: boolean = true;
